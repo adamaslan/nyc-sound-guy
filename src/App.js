@@ -1,20 +1,15 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
-import Nav from "./Nav"
-import About from "./Pages/About"
-import Landing from "./Pages/Landing"
-import Services from "./Pages/Services"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Nav from "./Nav";
+import About from "./Pages/About";
+import Landing from "./Pages/Landing";
+import Services from "./Pages/Services";
 
 export default function App() {
   return (
-
     <Router>
-    <div>
-   <Nav />
+      <div>
+        <Nav />
         <Switch>
           <Route path="/about">
             <About />
@@ -23,7 +18,7 @@ export default function App() {
             <Services />
           </Route>
           <Route path="/">
-            <Landing/>
+            <Landing />
           </Route>
         </Switch>
       </div>
