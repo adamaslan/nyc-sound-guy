@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import AreaCode from "../Assets/843.jpg";
 
@@ -9,25 +10,25 @@ export default function Soundmixers() {
         Hit us up to work with the following top notch soundmixers:
         <br />
         <br />
-        <a href="adamaslan">Adam Aslan </a>
+        <Link to="/adamaslan">Adam Aslan </Link>
         <br />
         <br />
-        <a href="billpierce">Bill Pierce</a>
+        <Link to="/billpierce">Bill Pierce </Link>
         <br />
         <br />
-        <a href="michaelmoote">Michael Moote</a>
+        <Link to="/michaelmoote">Michael Moote </Link>
         <br />
         <br />
-        <a href="allistairjohnson">Allistair Johnson</a>
+        <Link to="/allistairjohnson">Allistair Johnson </Link>
         <br />
         <br />
-        <a href="brettainslie">Brett Ainslie</a>
+        <Link to="/brettainslie">Brett Ainslie </Link>
         <br />
         <br />
-        <a href="joepfeil">Joe Pfeil</a>
+        <Link to="/joepfeil">Joe Pfeil </Link>
         <br />
         <br />
-        <a href="drewjoy">Drew Joy</a>
+        <Link to="drewjoy">Drew Joy </Link>
         <br />
         <br />
         Contact us at nycsoundpeople@gmail.com or at{" "}
