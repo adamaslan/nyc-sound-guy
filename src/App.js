@@ -31,34 +31,34 @@ export default function App() {
           <Route path="/soundmixers">
             <Soundmixers />
           </Route>
-          <Route path="/Travel">
+          <Route path="/travel">
             <Travel />
           </Route>
-          <Route path="/Experience">
+          <Route path="/experience">
             <Experience />
           </Route>
-          <Route path="/Gear">
+          <Route path="/gear">
             <Gear />
           </Route>
           <Route path="/adamaslan">
             <Adamaslan />
           </Route>
-          <Route path="/Joepfeil">
+          <Route path="/joepfeil">
             <Joepfeil />
           </Route>
-          <Route path="/Allistairjohnson">
+          <Route path="/allistairjohnson">
             <Allistairjohnson />
           </Route>
-          <Route path="/Michaelmoote">
+          <Route path="/michaelmoote">
             <Michaelmoote />
           </Route>
-          <Route path="/Brettainslie">
+          <Route path="/brettainslie">
             <Brettainslie />
           </Route>
-          <Route path="/Billpierce">
+          <Route path="/billpierce">
             <Billpierce />
           </Route>
-          <Route path="/Drewjoy">
+          <Route path="/drewjoy">
             <Drewjoy />
           </Route>
 

@@ -28,16 +28,16 @@ const Nav = () => (
             <Link to="/services">Services</Link>
           </li>
           <li>
-            <Link to="soundmixers">Sound Mixers</Link>
+            <Link to="/soundmixers">Sound Mixers</Link>
           </li>
           <li>
-            <Link to="experience">Experience</Link>
+            <Link to="/experience">Experience</Link>
           </li>
           <li>
-            <Link to="gear">Gear</Link>
+            <Link to="/gear">Gear</Link>
           </li>
           <li>
-            <Link to="travel">Travel</Link>
+            <Link to="/travel">Travel</Link>
           </li>
         </ul>
       </div>
