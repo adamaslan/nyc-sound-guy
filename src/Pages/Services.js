@@ -27,11 +27,6 @@ export default function Services() {
         <img src={AreaCode} alt="area code" />
         -284-3462{" "}
       </p>
-
-      <script
-        type="text/javascript"
-        src="https://form.jotform.us/jsform/72077025484154"
-      ></script>
     </div>
   );
 }

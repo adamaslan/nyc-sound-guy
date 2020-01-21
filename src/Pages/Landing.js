@@ -5,15 +5,14 @@ import AreaCode from "../Assets/843.jpg";
 export default function Landing() {
   return (
     <div>
-      <h2>Welcome</h2>
       <p>
-        ----------------------------------------------------------------->Welcome
-        to NYC Sound Guy, the home of world's only website exclusively dedicated
-        to booking sound professionals for film, television, and web content.
-        This site is designed and coded by freelance location soundmixer Adam
-        Aslan. NYC Sound Guy makes it easy to work with the best film sound
-        people in NYC. We are currently offering our booking services for free
-        to both sound mixers and the productions that are seeking their
+        ----------------------------------------------------------------->
+        Welcome to NYC Sound Guy, the home of world's only website exclusively
+        dedicated to booking sound professionals for film, television, and web
+        content. This site is designed and coded by freelance location
+        soundmixer Adam Aslan. NYC Sound Guy makes it easy to work with the best
+        film sound people in NYC. We are currently offering our booking services
+        for free to both sound mixers and the productions that are seeking their
         services. Just fill out the contact form and we will get back to you
         promptly. <br />
         <br />
