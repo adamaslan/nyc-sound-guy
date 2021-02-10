@@ -5,8 +5,7 @@ import AreaCode from "../Assets/843.jpg";
 export default function Landing() {
   return (
     <div>
-      <p>
-        ----------------------------------------------------------------->
+      <p><br />
         Welcome to NYC Sound Guy, the home of world's only website exclusively
         dedicated to booking sound professionals for film, television, and web
         content. This site is designed and coded by freelance location
@@ -33,7 +32,7 @@ export default function Landing() {
       </p>
 
       <p>
-        <img
+        <img class ="rainbow"
           src={Mixer}
           width="600"
           height="600"
