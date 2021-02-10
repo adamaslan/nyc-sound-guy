@@ -19,6 +19,14 @@ body {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
+.rainbow {
+  border-style: solid;
+  border-width: 2rem;
+  padding-right: 0px;
+  border-radius: 3.5rem;
+  max-width: auto;
+  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0);
+}
 
 img {
   image-orientation: from-image;
