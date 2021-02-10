@@ -36,7 +36,9 @@ img {
   background-color: #595959;
   font-size: 45px;
 }
-
+nav {
+ padding: -5px -5px; 
+}
 img {
   max-width: 100%;
   height: auto;
