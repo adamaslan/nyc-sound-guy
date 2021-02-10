@@ -10,6 +10,10 @@ body {
   font-size: 0.875 em;
   line-height: 1.42857143;
   color: #000;
+   font-family: plantin;
+ 
+  font-style: normal;
+  padding: 0px 5px;
 }
 
 .rotate90 {
@@ -31,6 +35,11 @@ body {
 img {
   image-orientation: from-image;
 }
+p {
+   font-size: 3em;
+  text-align: left;
+  font-weight: bold;
+  ?
 
 .btn {
   background-color: #595959;
@@ -89,14 +98,6 @@ a {
   src: url(fonts/plantin.ttf);
 } */
 
-body {
-  font-family: plantin;
-  font-size: 3em;
-  text-align: center;
-  font-weight: bold;
-  font-style: normal;
-  padding: 0px 5px;
-}
 
 .navbar-brand {
   float: left;
