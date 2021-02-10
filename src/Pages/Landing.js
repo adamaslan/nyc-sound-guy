@@ -27,7 +27,7 @@ export default function Landing() {
         -----------------------------------------------------------------
       </p>
 
-      <p>
+     
         <img class ="rainbow"
           src={Mixer}
           width="600"
@@ -46,7 +46,7 @@ export default function Landing() {
         -----------------------------------------------------------------
         <br />
         <br />
-      </p>
+     
       <a href="/" title="Back to the Home page">
         <b>HOME</b>
       </a>
