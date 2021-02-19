@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 10%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -10,8 +10,8 @@ body {
   font-size: 0.875 em;
   line-height: 1.42857143;
   color: #000;
-   font-family: plantin;
- 
+  font-family: plantin;
+
   font-style: normal;
   padding: 0px 5px;
 }
@@ -39,9 +39,8 @@ img {
   text-align: center;
 }
 p {
-   font-size: 2em;
+  font-size: 2em;
   text-align: left;
-
 }
 
 .btn {
@@ -49,7 +48,8 @@ p {
   font-size: 45px;
 }
 nav {
- padding: -5px -5px; 
+  padding: -5px -5px;
+  font-size: 1.5em;
 }
 
 video {
@@ -96,7 +96,6 @@ a {
   font-family: plantin;
   src: url(fonts/plantin.ttf);
 } */
-
 
 .navbar-brand {
   float: left;
