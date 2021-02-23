@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from "./Nav";
+import Footer from "./Footer";
 import About from "./Pages/About";
 import Landing from "./Pages/Landing";
 import Services from "./Pages/Services";
@@ -66,6 +67,7 @@ export default function App() {
             <Landing />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

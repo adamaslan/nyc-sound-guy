@@ -109,6 +109,10 @@ a {
   background-color: #fff;
   color: white;
   padding: 15px;
+  height: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 /*MEDIA QUERY*/
