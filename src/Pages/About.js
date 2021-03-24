@@ -2,6 +2,7 @@ import React from "react";
 
 import AreaCode from "../Assets/843.jpg";
 
+
 export default function About() {
   return (
     <div>

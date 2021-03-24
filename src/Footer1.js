@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Footer = () => (
+const Footer1 = () => (
   <nav className="navbar navbar-inverse sticky-top">
     <div className="container-fluid">
       <div className="navbar-header">
@@ -30,13 +30,9 @@ const Footer = () => (
           <li>
             <Link to="/soundmixers">Sound Mixers</Link>
           </li>
-          <li>
-            <h1>8432843462</h1>
-          </li>
-         
         </ul>
       </div>
     </div>
   </nav>
 );
-export default Footer;
+export default Footer1;

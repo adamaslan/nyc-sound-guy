@@ -85,6 +85,10 @@ a {
 a {
   background-color: transparent;
 }
+.navshih {
+  font-size: 45 px;
+  color: white;
+}
 
 .btn-primary {
   color: #fff;
@@ -113,6 +117,7 @@ a {
   width: 100%;
   position: absolute;
   bottom: 0;
+  font-color: white;
 }
 
 /*MEDIA QUERY*/
@@ -163,24 +168,23 @@ a {
       font-family: plantin;
       font-size: 0.75em;
     }
+  }
+  h1 {
+    font-family: plantin;
+    font-size: 1em;
+  }
+  h2 {
+    font-family: plantin;
+    font-size: 1em;
+  }
 
-    h1 {
-      font-family: plantin;
-      font-size: 1em;
-    }
-    h2 {
-      font-family: plantin;
-      font-size: 1em;
-    }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    video {
-      max-width: 100%;
-      height: auto;
-    }
+  video {
+    max-width: 100%;
+    height: auto;
   }
 }
