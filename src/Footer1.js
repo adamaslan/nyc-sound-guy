@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './index.css';
 
-const Nav = () => (
+const Footer1 = () => (
   <nav className="navbar navbar-inverse sticky-top">
     <div className="container-fluid">
       <div className="navbar-header">
@@ -31,18 +30,9 @@ const Nav = () => (
           <li>
             <Link to="/soundmixers">Sound Mixers</Link>
           </li>
-          <li>
-            <Link to="/experience">Experience</Link>
-          </li>
-          <li>
-            <Link to="/gear">Gear</Link>
-          </li>
-          <li>
-            <Link to="/travel">Travel</Link>
-          </li>
         </ul>
       </div>
     </div>
   </nav>
 );
-export default Nav;
+export default Footer1;
