@@ -1,18 +1,15 @@
 import React from "react";
 import Mixer from "../Assets/mixer.gif";
-import AreaCode from "../Assets/843.jpg";
-
-import styled from "styled-components";
 import Carousel from "react-elastic-carousel";
 import Caro from "../Caro";
 import Img from "../Img";
 import pfeil from "../Assets/pfeil.jpg";
-
 import brettainslie from "../Assets/brettainslie.jpg";
-
 import Moote from "../Assets/moote.JPG";
 import Button from "../Button";
 import Emph from "../Emph";
+import Allistair from "../Assets/Allistair.JPG";
+import joy from "../Assets/joy.jpg";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -31,7 +28,31 @@ export default function Landing() {
         content. NYC Sound Guy makes it easy to work with the best film sound
         people in NYC.
         <br />
-        <br />
+        <div>
+          <Carousel breakPoints={breakPoints}>
+            <Caro>
+              <Img src={pfeil} alt="Joe" />{" "}
+            </Caro>
+            <Caro>
+              <Img src={Mixer} />
+            </Caro>
+            <Caro>
+              <Img src={Moote} alt={Mixer} />
+            </Caro>
+            <Caro>
+              {" "}
+              <Img src={brettainslie} alt={Mixer} />
+            </Caro>
+            <Caro>
+              {" "}
+              <Img src={Allistair} alt={Mixer} />
+            </Caro>
+            <Caro>
+              {" "}
+              <Img src={joy} alt={Mixer} />
+            </Caro>
+          </Carousel>
+        </div>
         <Emph>
           Our booking and consulatation services are FREE to all productions
           seeking one of our sound services.{" "}
@@ -45,39 +66,16 @@ export default function Landing() {
         <br />
         We are here to help find the best audio solution for you.
         <br />
-        <br />
+      </p>
+
+      <h2>
         <Button onClick={() => alert("8432843462")}>
           Click here to get our number
         </Button>
         <Button onClick={() => alert("nycsoundpeople@gmail.com")}>
           Click here to get our email
         </Button>{" "}
-        <br />{" "}
-      </p>
-      <div>
-        <Carousel breakPoints={breakPoints}>
-          <Caro>
-            <Img src={pfeil} alt="Joe" />{" "}
-          </Caro>
-          <Caro>
-            <Img src={Mixer} />
-          </Caro>
-          <Caro>
-            <Img src={Moote} alt={Mixer} />
-          </Caro>
-          <Caro>
-            {" "}
-            <Img src={brettainslie} alt={Mixer} />
-          </Caro>
-          <Caro>5</Caro>
-          <Caro>6</Caro>
-        </Carousel>
-      </div>
-      <br /> <br />
-      <script
-        type="text/javascript"
-        src="https://form.jotform.us/jsform/72077025484154"
-      ></script>
+      </h2>
       <br />
       <br />
       <br />
