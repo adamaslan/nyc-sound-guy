@@ -4,11 +4,13 @@ export default styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 250px;
+  height: 80%;
   width: 100%;
-  object-fit: fill;
   background-color: transparent;
   color: palevioletred;
   margin: 15px;
   font-size: 4em;
+
+  border: 2px solid palevioletred;
+  border-radius: 3px;
 `;
