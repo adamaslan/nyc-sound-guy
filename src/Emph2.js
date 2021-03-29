@@ -2,7 +2,7 @@
 
 import styled from "styled-components";
 
-export default styled.h1`
+export default styled.h2`
   display: block;
   background-color: powderblue;
   border: 10px solid palevioletred;

@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-export default styled.div`
+export default styled.article`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  height: 90%;
   width: 100%;
   background-color: transparent;
-  color: palevioletred;
+  color: ;
   margin: 15px;
   font-size: 4em;
 

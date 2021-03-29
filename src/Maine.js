@@ -1,8 +1,8 @@
-// Emph.js;
+// Maine.js;
 
 import styled from "styled-components";
 
-export default styled.h1`
+export default styled.main`
   display: block;
   background-color: powderblue;
   border: 10px solid palevioletred;
