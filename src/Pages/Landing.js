@@ -34,7 +34,7 @@ export default function Landing() {
         content. NYC Sound Guy makes it easy to work with the best film sound
         people in NYC.{" "}
       </Emph2>
-      <br />
+
       <Maine>
         <Carousel breakPoints={breakPoints}>
           <Caro>
@@ -59,27 +59,23 @@ export default function Landing() {
             <Img src={joy} alt={Mixer} />
           </Caro>
         </Carousel>
-        <br />
         <h3>
           Feel free to contact NYC Soundguy with any sound related questions you
           may have on your film, tv show, web content, branded content,
           commercial, or documentary even if you are not looking to book a sound
           mixer with us currently.{" "}
         </h3>{" "}
-        <br />{" "}
         <h3>We are here to help find the best audio solution for you. </h3>
-        <br />
         <h3>
           <Button onClick={() => alert("8432843462")}>
             Click here to get our number
           </Button>
+          <br />
           <Button onClick={() => alert("nycsoundpeople@gmail.com")}>
             Click here to get our email
           </Button>{" "}
         </h3>
       </Maine>
-
-      <br />
     </Boxy>
   );
 }
