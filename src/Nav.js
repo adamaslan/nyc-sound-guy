@@ -16,12 +16,12 @@ const Nav = () => (
           <span className="icon-bar"></span>
           <span className="icon-bar"></span>
         </button>
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand spring" to="/">
           NYC SOUND GUY
         </Link>
       </div>
       <div className="collapse navbar-collapse" id="myNavbar">
-        <ul className="nav navbar-nav">
+        <ul className="nav navbar-nav spring">
           <li>
             <Link to="/about">About</Link>
           </li>
