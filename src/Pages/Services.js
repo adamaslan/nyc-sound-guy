@@ -1,12 +1,13 @@
 import React from "react";
 
 import AreaCode from "../Assets/843.jpg";
+import Button from "../Button";
+import Emph2 from "../Emph2";
 
 export default function Services() {
   return (
     <div>
-      <p>
-        -----------------------------------------------------------------
+      <Emph2>
         <br />
         <br />
         We specialize in all the services associated with location film sound.
@@ -23,10 +24,14 @@ export default function Services() {
         sound related inquiries.
         <br />
         <br />
-        Contact us at nycsoundpeople@gmail.com or at{" "}
-        <img src={AreaCode} alt="area code" />
-        -284-3462{" "}
-      </p>
+        <Button onClick={() => alert("8432843462")}>
+          Click here to get our number
+        </Button>
+        <br />
+        <Button onClick={() => alert("nycsoundpeople@gmail.com")}>
+          Click here to get our email
+        </Button>{" "}
+      </Emph2>
     </div>
   );
 }

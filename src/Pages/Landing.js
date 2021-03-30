@@ -14,6 +14,8 @@ import Maine from "../Maine";
 import Allistair from "../Assets/Allistair.JPG";
 import joy from "../Assets/joy.jpg";
 
+import Footer1 from "../Footer1";
+
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
@@ -38,7 +40,7 @@ export default function Landing() {
       <Maine>
         <Carousel breakPoints={breakPoints}>
           <Caro>
-            <Img src={pfeil} alt="Joe" />{" "}
+            <Img src={brettainslie} alt={Mixer} />
           </Caro>
           <Caro>
             <Img src={Mixer} />
@@ -48,7 +50,7 @@ export default function Landing() {
           </Caro>
           <Caro>
             {" "}
-            <Img src={brettainslie} alt={Mixer} />
+            <Img src={pfeil} alt="Joe" />
           </Caro>
           <Caro>
             {" "}
@@ -76,6 +78,7 @@ export default function Landing() {
           </Button>{" "}
         </h3>
       </Maine>
+      <Footer1 />
     </Boxy>
   );
 }
