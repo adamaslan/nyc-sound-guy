@@ -2,6 +2,7 @@ import React from "react";
 
 import AreaCode from "../Assets/843.jpg";
 import Allistair from "../Assets/Allistair.JPG";
+import Button from "../Button";
 import Emph2 from "../Emph2";
 
 export default function Allistairjohnson() {
@@ -22,9 +23,13 @@ export default function Allistairjohnson() {
         to make movies sound great for a living.
         <br />
         <br />
-        Contact us at nycsoundpeople@gmail.com or at{" "}
-        <img src={AreaCode} alt="area code" />
-        -284-3462{" "}
+        <Button onClick={() => alert("8432843462")}>
+          Click here to get our number
+        </Button>
+        <br />
+        <Button onClick={() => alert("nycsoundpeople@gmail.com")}>
+          Click here to get our email
+        </Button>{" "}
       </Emph2>
     </div>
   );

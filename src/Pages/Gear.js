@@ -1,11 +1,11 @@
 import React from "react";
-
-import AreaCode from "../Assets/843.jpg";
+import Button from "../Button";
+import Emph2 from "../Emph2";
 
 export default function Gear() {
   return (
     <div>
-      <p>
+      <Emph2>
         We pride ourselves in being able to supply all gear necessary for
         whatever a specific film shoot calls for. <br />
         <br />
@@ -15,10 +15,14 @@ export default function Gear() {
         Lectrosonics <br /> Sanken <br /> Sennheiser <br /> Ktek <br /> DPA
         <br />
         <br />
-        Contact us at nycsoundpeople@gmail.com or at{" "}
-        <img src={AreaCode} alt="area code" />
-        -284-3462{" "}
-      </p>
+        <Button onClick={() => alert("8432843462")}>
+          Click here to get our number
+        </Button>
+        <br />
+        <Button onClick={() => alert("nycsoundpeople@gmail.com")}>
+          Click here to get our email
+        </Button>{" "}
+      </Emph2>
     </div>
   );
 }

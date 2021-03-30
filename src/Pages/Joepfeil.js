@@ -1,12 +1,13 @@
 import React from "react";
 
-import AreaCode from "../Assets/843.jpg";
 import pfeil from "../Assets/pfeil.jpg";
+import Button from "../Button";
+import Emph2 from "../Emph2";
 
 export default function Joepfeil() {
   return (
     <div>
-      <p>
+      <Emph2>
         <img src={pfeil} alt="Joe" /> <br />
         With over 10 years experience in location sound engineering, Joe Pfeil
         is the owner/operator of State of Sound LLC. Born and raised in Alaska,
@@ -20,10 +21,14 @@ export default function Joepfeil() {
         border.
         <br />
         <br />
-        Contact us at nycsoundpeople@gmail.com or at{" "}
-        <img src={AreaCode} alt="area code" />
-        -284-3462{" "}
-      </p>
+        <Button onClick={() => alert("8432843462")}>
+          Click here to get our number
+        </Button>
+        <br />
+        <Button onClick={() => alert("nycsoundpeople@gmail.com")}>
+          Click here to get our email
+        </Button>{" "}
+      </Emph2>
     </div>
   );
 }
