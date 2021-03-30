@@ -1,6 +1,4 @@
 import React from "react";
-
-import AreaCode from "../Assets/843.jpg";
 import Allistair from "../Assets/Allistair.JPG";
 import Button from "../Button";
 import Emph2 from "../Emph2";

@@ -1,6 +1,5 @@
 import React from "react";
 import Emph2 from "../Emph2";
-import AreaCode from "../Assets/843.jpg";
 
 export default function Experience() {
   return (
