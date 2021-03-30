@@ -1,12 +1,13 @@
 import React from "react";
 
-import AreaCode from "../Assets/843.jpg";
 import brettainslie from "../Assets/brettainslie.jpg";
+import Button from "../Button";
+import Emph2 from "../Emph2";
 
 export default function Brettainslie() {
   return (
     <div>
-      <p>
+      <Emph2>
         <img src={brettainslie} alt="Brett" /> <br /> <br />
         Brett Ainslie is a NYC based freelance Production Sound Mixer / Boom
         Operator. Brett's sound work ranges from TV commercials to corporate
@@ -17,10 +18,14 @@ export default function Brettainslie() {
         more.
         <br />
         <br />
-        Contact us at nycsoundpeople@gmail.com or at{" "}
-        <img src={AreaCode} alt="area code" />
-        -284-3462{" "}
-      </p>
+        <Button onClick={() => alert("8432843462")}>
+          Click here to get our number
+        </Button>
+        <br />
+        <Button onClick={() => alert("nycsoundpeople@gmail.com")}>
+          Click here to get our email
+        </Button>{" "}
+      </Emph2>
     </div>
   );
 }

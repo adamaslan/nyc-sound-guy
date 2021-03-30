@@ -1,12 +1,11 @@
 import React from "react";
-
-import AreaCode from "../Assets/843.jpg";
 import Adam from "../Assets/adam.JPG";
-
+import Emph2 from "../Emph2";
+import Button from "../Button";
 export default function Adamaslan() {
   return (
     <div>
-      <p>
+      <Emph2>
         <img src={Adam} alt="adam" /> <br />
         Adam Aslan is a sound mixer boom op, and sound designer with years of
         experience handling audio both on set and in post. Based in New York
@@ -17,11 +16,14 @@ export default function Adamaslan() {
         He has the equipment and expertise to get great results and make audio
         one less thing for you to worry about
         <br />
+        <Button onClick={() => alert("8432843462")}>
+          Click here to get our number
+        </Button>
         <br />
-        Contact us at nycsoundpeople@gmail.com or at{" "}
-        <img src={AreaCode} alt="area code" />
-        -284-3462{" "}
-      </p>
+        <Button onClick={() => alert("nycsoundpeople@gmail.com")}>
+          Click here to get our email
+        </Button>{" "}
+      </Emph2>
     </div>
   );
 }

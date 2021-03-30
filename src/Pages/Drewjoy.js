@@ -2,11 +2,13 @@ import React from "react";
 
 import AreaCode from "../Assets/843.jpg";
 import joy from "../Assets/joy.jpg";
+import Button from "../Button";
+import Emph2 from "../Emph2";
 
 export default function Drewjoy() {
   return (
     <div>
-      <p>
+      <Emph2>
         <img src={joy} alt="Drew" /> <br /> <br />
         Drew Joy is a a sound mixer, boom op, and sound designer with years of
         experience. He also has experience with ADR, Foley, and other types of
@@ -19,10 +21,14 @@ export default function Drewjoy() {
         performances, and any type of ENG sound work.
         <br />
         <br />
-        Contact us at nycsoundpeople@gmail.com or at{" "}
-        <img src={AreaCode} alt="area code" />
-        -284-3462{" "}
-      </p>
+        <Button onClick={() => alert("8432843462")}>
+          Click here to get our number
+        </Button>
+        <br />
+        <Button onClick={() => alert("nycsoundpeople@gmail.com")}>
+          Click here to get our email
+        </Button>{" "}
+      </Emph2>
     </div>
   );
 }

@@ -2,11 +2,12 @@ import React from "react";
 
 import AreaCode from "../Assets/843.jpg";
 import Allistair from "../Assets/Allistair.JPG";
+import Emph2 from "../Emph2";
 
 export default function Allistairjohnson() {
   return (
     <div>
-      <p>
+      <Emph2>
         <img src={Allistair} alt="Allistair" /> <br />
         Allistair Johnson is a a sound mixer, boom op, and sound designer with
         years of experience handling audio both on set and in post.
@@ -24,7 +25,7 @@ export default function Allistairjohnson() {
         Contact us at nycsoundpeople@gmail.com or at{" "}
         <img src={AreaCode} alt="area code" />
         -284-3462{" "}
-      </p>
+      </Emph2>
     </div>
   );
 }
