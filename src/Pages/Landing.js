@@ -40,7 +40,7 @@ export default function Landing() {
       <Maine>
         <Carousel breakPoints={breakPoints}>
           <Caro>
-            <Img src={pfeil} alt="Joe" />{" "}
+            <Img src={brettainslie} alt={Mixer} />
           </Caro>
           <Caro>
             <Img src={Mixer} />
@@ -50,7 +50,7 @@ export default function Landing() {
           </Caro>
           <Caro>
             {" "}
-            <Img src={brettainslie} alt={Mixer} />
+            <Img src={pfeil} alt="Joe" />
           </Caro>
           <Caro>
             {" "}
