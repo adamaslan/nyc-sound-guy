@@ -1,6 +1,4 @@
 import React from "react";
-
-import AreaCode from "../Assets/843.jpg";
 import joy from "../Assets/joy.jpg";
 import Button from "../Button";
 import Emph2 from "../Emph2";
