@@ -12,9 +12,6 @@ export default function Soundmixers() {
           Hit us up to work with the following top notch soundmixers:
           <br />
           <br />
-          <Link to="/adamaslan">Adam Aslan </Link>
-          <br />
-          <br />
           <Link to="/billpierce">Bill Pierce </Link>
           <br />
           <br />
@@ -28,6 +25,9 @@ export default function Soundmixers() {
           <br />
           <br />
           <Link to="/joepfeil">Joe Pfeil </Link>
+          <br />
+          <br />
+          <Link to="/adamaslan">Adam Aslan </Link>
           <br />
           <br />
           <Link to="drewjoy">Drew Joy </Link>

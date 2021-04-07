@@ -23,13 +23,16 @@ export default function Drewjoy() {
       performances, and any type of ENG sound work.
       <br />
       <br />
-      <Button onClick={() => alert("8432843462")}>
-        Click here to get our number
-      </Button>
-      <br />
-      <Button onClick={() => alert("nycsoundpeople@gmail.com")}>
-        Click here to get our email
-      </Button>{" "}
+      <Flexdiv>
+        {" "}
+        <Button onClick={() => alert("8432843462")}>
+          Click here to get our number
+        </Button>
+        <br /> <br></br>
+        <Button onClick={() => alert("nycsoundpeople@gmail.com")}>
+          Click here to get our email
+        </Button>{" "}
+      </Flexdiv>
     </Emph2>
   );
 }

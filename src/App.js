@@ -15,6 +15,7 @@ import Allistairjohnson from "./Pages/Allistairjohnson";
 import Brettainslie from "./Pages/Brettainslie";
 import Billpierce from "./Pages/Billpierce";
 import Drewjoy from "./Pages/Drewjoy";
+import Flexdiv from "./Flexdiv";
 
 export default function App() {
   return (
@@ -66,6 +67,12 @@ export default function App() {
             <Landing />
           </Route>
         </Switch>
+        <Flexdiv>
+          <script
+            type="text/javascript"
+            src="https://form.jotform.com/jsform/72077025484154"
+          ></script>
+        </Flexdiv>
       </div>
     </Router>
   );

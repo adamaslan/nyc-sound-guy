@@ -8,4 +8,5 @@ export default styled.h1`
   border: 10px solid palevioletred;
   border-radius: 5px;
   padding: 5px;
+  margin: 5%;
 `;

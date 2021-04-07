@@ -15,6 +15,7 @@ import Allistair from "../Assets/Allistair.JPG";
 import joy from "../Assets/joy.jpg";
 
 import Footer1 from "../Footer1";
+import "../index.css";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
