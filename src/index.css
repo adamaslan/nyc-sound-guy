@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: oldlace;
+  background-color: blue;
   /* font-family: "plantin,Helvetica,Arial,serif; */
 
   line-height: 1.42857143;
@@ -33,14 +33,14 @@ body {
 }
 
 .spring {
-  color: black;
+  color: blue;
 }
 
 nav {
   padding: -5px -5px;
   font-size: 1.5em;
   color: black;
-  background-color: powderblue;
+  background-color: whitesmoke;
   width: 70%;
 }
 
@@ -87,7 +87,7 @@ img {
 }
 .navshih {
   font-size: 45 px;
-  color: white;
+  color: palevioletred;
 }
 
 /* @font-face {
@@ -100,9 +100,9 @@ img {
   border-color: palevioletred;
   padding: 15px;
   font-size: 1em;
-  color: black;
+  color: blue;
   line-height: center;
-  background-color: powderblue;
+  background-color: whitesmoke;
 }
 
 .footer {
@@ -130,7 +130,7 @@ img {
     display: none;
     position: absolute;
     padding: 20px;
-    background: #fff;
+    background: palevioletred;
     border: 5px solid #444;
     right: 5px;
     top: 10px;
