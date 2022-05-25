@@ -10,7 +10,11 @@ export default function Drewjoy() {
   return (
     <Emph2>
       <Flexdiv>
-        <Flexitem src={joy} alt="Drew" /> <br /> <br />{" "}
+        <Flexitem
+          src="https://res.cloudinary.com/adamaslan/image/upload/v1653501701/nycsoundguy/joy_cecbsd.jpg"
+          alt="Drew"
+        />{" "}
+        <br /> <br />{" "}
       </Flexdiv>
       Drew Joy is a a sound mixer, boom op, and sound designer with years of
       experience. He also has experience with ADR, Foley, and other types of
