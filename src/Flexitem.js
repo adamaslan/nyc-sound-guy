@@ -1,9 +1,7 @@
 //Flexitem.js;
-
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 export default styled.img`
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%;
+  align-self: center;
+  align-items: center;
 `;

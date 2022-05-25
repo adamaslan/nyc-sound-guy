@@ -1,9 +1,9 @@
-// Emph.js;
+//Flexitem.js;
 import styled from "styled-components/macro";
 
-export default styled.h2`
-  background-color: lightblue;
+export default styled.div`
+  align-self: center;
+  align-items: center;
   border: 5px solid yellow;
   border-radius: 5px;
-  padding: 5px;
 `;

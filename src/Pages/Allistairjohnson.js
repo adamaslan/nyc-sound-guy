@@ -1,13 +1,20 @@
 import React from "react";
+
 import Allistair from "../Assets/Allistair.JPG";
 import Button from "../Button";
 import Emph2 from "../Emph2";
+import Flexchild from "../Flexchild";
+import Flexdiv from "../Flexdiv";
 
 export default function Allistairjohnson() {
   return (
-    <div>
+    <Flexdiv>
+      <Flexchild>
+        <img src={Allistair} alt="Allistair" />{" "}
+      </Flexchild>{" "}
+      <br />
       <Emph2>
-        <img src={Allistair} alt="Allistair" /> <br />
+        {" "}
         Allistair Johnson is a a sound mixer, boom op, and sound designer with
         years of experience handling audio both on set and in post.
         <br />
@@ -29,6 +36,6 @@ export default function Allistairjohnson() {
           Click here to get our email
         </Button>{" "}
       </Emph2>
-    </div>
+    </Flexdiv>
   );
 }

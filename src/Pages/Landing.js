@@ -3,8 +3,7 @@ import Mixer from "../Assets/mixer.gif";
 import Carousel from "react-elastic-carousel";
 import Caro from "../Caro";
 import Img from "../Img";
-import pfeil from "../Assets/pfeil.jpg";
-import brettainslie from "../Assets/brettainslie.jpg";
+
 import Moote from "../Assets/moote.JPG";
 import Button from "../Button";
 import Emph from "../Emph";
@@ -40,7 +39,10 @@ export default function Landing() {
       <Maine>
         <Carousel breakPoints={breakPoints}>
           <Caro>
-            <Img src={brettainslie} alt={Mixer} />
+            <Img
+              src="https://res.cloudinary.com/adamaslan/image/upload/v1653500034/nycsoundguy/brettainslie_xjkvzy.jpg"
+              alt={Mixer}
+            />
           </Caro>
           <Caro>
             <Img src={Mixer} />
@@ -50,7 +52,10 @@ export default function Landing() {
           </Caro>
           <Caro>
             {" "}
-            <Img src={pfeil} alt="Joe" />
+            <Img
+              src="https://res.cloudinary.com/adamaslan/image/upload/v1653501229/nycsoundguy/pfeil_u7yges.jpg"
+              alt="Joe"
+            />
           </Caro>
           <Caro>
             {" "}
