@@ -1,5 +1,5 @@
 import React from "react";
-import joy from "../Assets/joy.jpg";
+
 import Button from "../Button";
 import Emph2 from "../Emph2";
 import Flexdiv from "../Flexdiv";
