@@ -7,9 +7,8 @@ export default function Travel() {
     <div>
       <Emph2>
         <br />
-        We are able to travel to pretty much any location in the world and have
-        the travel gear necessary to expedite shoots associated with lots of
-        travel.
+      Zaxcom is one of the most trusted companies in location sound. Visit www.zaxcom.com to learn more.
+
         <br />
         <br />
         <Button onClick={() => alert("8432843462")}>
