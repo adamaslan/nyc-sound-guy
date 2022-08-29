@@ -5,7 +5,7 @@ import About from "./Pages/About";
 import Landing from "./Pages/Landing";
 import Services from "./Pages/Services";
 import Soundmixers from "./Pages/Soundmixers";
-import Travel from "./Pages/Travel";
+import Resources from "./Pages/Resources";
 import Gear from "./Pages/Gear";
 import Experience from "./Pages/Experience";
 import Adamaslan from "./Pages/Adamaslan";
@@ -29,10 +29,10 @@ export default function App() {
             <Services />
           </Route>
           <Route path="/soundmixers">
-            <Soundmixers />
+            <Soundmixers/>
           </Route>
-          <Route path="/travel">
-            <Travel />
+          <Route path="/resources">
+            <Resources />
           </Route>
           <Route path="/experience">
             <Experience />
