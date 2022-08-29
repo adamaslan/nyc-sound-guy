@@ -124,24 +124,28 @@ img {
   #menu-icon {
     display: inline-block;
   }
+  body {
+    margin: 2px;
+    padding: 1px;
+  }
 
   nav ul,
   nav:active ul {
     display: none;
     position: absolute;
-    padding: 10px;
-    background: palevioletred;
-    border: 5px solid #444;
-    right: 5px;
-    top: 10px;
-    width: 50%;
+    padding: 2px;
+    background: rgb(210, 139, 163);
+    border: 2px solid #000;
+    right: 2px;
+    top: 2px;
+    width: 100%;
     border-radius: 4px 0 4px 4px;
   }
 
   nav li {
     text-align: center;
     width: 100%;
-    padding: 10px 0;
+    padding: 2px 0;
     margin: 0;
   }
 
